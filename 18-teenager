@@ -25,6 +25,7 @@ Explanation of each line of code:
 
 > return false; returns a false value if the age is not within the range of 13 to 19.
 
-In summary, this code defines a method that takes an integer age as input and checks if it falls within the range of 13 to 19. If it does, the method returns true, and if it does not, it returns false.
+In summary, this code defines a method that takes an integer age as input and checks if it falls within the range of 13 to 19. 
+If it does, the method returns true, and if it does not, it returns false.
 
 */
