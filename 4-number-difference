@@ -1,16 +1,16 @@
 public Integer diff(Integer a, Integer b) {    
-    // APPROACH 1: 
-    // Determine which integer is larger
-    // Integer larger;
-    // Integer smaller;
+    // APPROACH 1: Using if else statements
+        // Determine which integer is larger
+        // Integer larger;
+        // Integer smaller;
 
-    // if (a > b) {
-    //     larger = a;
-    //     smaller = b;
-    // } else {
-    //     larger = b;
-    //     smaller = a;
-    // }
+        // if (a > b) {
+        //     larger = a;
+        //     smaller = b;
+        // } else {
+        //     larger = b;
+        //     smaller = a;
+        // }
 
     // Calculate the absolute difference between the larger and smaller integers
    // Integer difference = larger - smaller;
@@ -18,16 +18,18 @@ public Integer diff(Integer a, Integer b) {
     // Return the absolute difference
    // return Math.abs(difference);
 
-// }
-
-  // APPROACH 2:
+  // APPROACH 2: Using Math.abs function
     // Calculate the absolute difference between a and b
     Integer difference = Math.abs(a - b);
     // Return the absolute difference
     return difference;
 }
 
-
+// Output
 diff(5, 2); // 3
 
 diff(2, 5); // 3
+
+///////////////////////////////
+// 2.Number Difference: Implement a function diff that calculates the absolute difference between two integers.
+//////////////////////////////
