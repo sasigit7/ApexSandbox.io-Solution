@@ -1,11 +1,15 @@
 public Boolean isTeenager(Integer age) {
-    private Integer age;
-    
-    if (age > = 12) && (age < = 19) {
-        System.Debug(Person's . age);
+    // check if age is between 13 and 19 (inclusive)
+    if (age > = 13 && age < = 19) {
+         // if age is within the teenager range, return true
+         return true;
+    } else {
+        // if age is not within the teenager range, return false
+        return false;
     }
 }
 
-isTeenager(5) // false
+isTeenager(15); // true
 
-isTeenager(15) // true
+isTeenager(5); // false
+
