@@ -1,10 +1,14 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
+    // Check if a and b add up to c
     if (a + b == c) {
+        // If a and b add up to c, return true
         return true;
     } else {
+        // If a and b do not add up to c, return false
         return false;
     }
 }
+
 
 sumEquals(5, 5, 10); // true
 
