@@ -13,3 +13,18 @@ isTeenager(15); // true
 
 isTeenager(5); // false
 
+/*
+
+Explanation of each line of code:
+
+> public boolean isTeenager(Integer age) declares a public method isTeenager which takes an Integer parameter age and returns a boolean value.
+
+> if (age >= 13 && age <= 19) checks if the age parameter is within the range of 13 to 19 (inclusive) using the logical AND operator &&.
+
+> return true; returns a true value if the age is within the range of 13 to 19.
+
+> return false; returns a false value if the age is not within the range of 13 to 19.
+
+In summary, this code defines a method that takes an integer age as input and checks if it falls within the range of 13 to 19. If it does, the method returns true, and if it does not, it returns false.
+
+*/
