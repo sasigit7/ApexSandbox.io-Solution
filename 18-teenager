@@ -1,0 +1,11 @@
+public Boolean isTeenager(Integer age) {
+    private Integer age;
+    
+    if (age > = 12) && (age < = 19) {
+        System.Debug(Person's . age);
+    }
+}
+
+isTeenager(5) // false
+
+isTeenager(15) // true
