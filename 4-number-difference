@@ -1,9 +1,21 @@
 public Integer diff(Integer a, Integer b) {
-     if (a > b) {
-         return a - b;
-     } else {
-         return b - a;
-     }
+    // Determine which integer is larger
+    Integer larger;
+    Integer smaller;
+
+    if (a > b) {
+        larger = a;
+        smaller = b;
+    } else {
+        larger = b;
+        smaller = a;
+    }
+
+    // Calculate the absolute difference between the larger and smaller integers
+    Integer difference = larger - smaller;
+
+    // Return the absolute difference
+    return Math.abs(difference);
 }
 
 
