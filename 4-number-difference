@@ -19,6 +19,6 @@ public Integer diff(Integer a, Integer b) {
 }
 
 
-diff(5, 2) // 3
+diff(5, 2); // 3
 
-diff(2, 5) // 3
+diff(2, 5); // 3
