@@ -1,28 +1,21 @@
 public String aOrAn(String word) {
     // APPROACH 1: 
     // Check if the first letter of the word is a vowel
-    if (word.toLowerCase().startsWith('a') || 
-        word.toLowerCase().startsWith('e') ||
-        word.toLowerCase().startsWith('i') ||
-        word.toLowerCase().startsWith('o') ||
-        word.toLowerCase().startsWith('u') ||
-        word.toUpperCase().startsWith('A') || 
-        word.toUpperCase().startsWith('E') ||
-        word.toUpperCase().startsWith('I') ||
-        word.toUpperCase().startsWith('O') ||
-        word.toUpperCase().startsWith('U')) {
-        // If the first letter is a vowel, prepend "an"
+    
+
+    // APPROACH 2: 
+    // Check if the first letter of the word is a vowel
+    if('AEIOUaeiou'.indexOf(word.substring(0, 1)) != -1) {
+        // if the first letter of the word is a vowel, prepend 'an'
         return 'an ' + word;
     } else {
-        // If the first letter is not a vowel, prepend "a"
+        // if the first letter of the word is not a vowel, prepend 'a'
         return 'a ' + word;
     }
-
     
 }
 
 aOrAn('apple'); // 'an apple'
-
 aOrAn('banana'); // 'a banana'
 
 ///////////////////////////////
