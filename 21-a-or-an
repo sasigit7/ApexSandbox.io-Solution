@@ -1,0 +1,19 @@
+public String aOrAn(String word) {
+    // Check if the first letter of the word is a vowel
+    if('AEIOUaeiou'.indexOf(word.charAt(0)) != -1) {
+        // if the first letter of the word is a vowel, prepend 'an'
+        return 'an ' + word;
+    } else {
+        return 'a ' + word;
+    }
+}
+
+aOrAn('apple'); // 'an apple'
+
+aOrAn('banana'); // 'a banana'
+
+///////////////////////////////
+// 5.A Or An: Given a word, prepend it with the correct indefinite article ("a" or "an") followed by a space based on the 
+// following rule: words starting with a vowel (a, e, i, o, or u) are prepended with "an", 
+// while words starting with any other letter are prepended with "a". 
+///////////////////////////////
