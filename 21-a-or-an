@@ -2,15 +2,15 @@ public String aOrAn(String word) {
     // APPROACH 1: 
     // Check if the first letter of the word is a vowel
     if (word.toLowerCase().startsWith('a') || 
-        word.toLowerCase().startsWith("e") ||
-        word.toLowerCase().startsWith("i") ||
-        word.toLowerCase().startsWith("o") ||
-        word.toLowerCase().startsWith("u") ||
-        word.toUpperCase().startsWith("A") || 
-        word.toUpperCase().startsWith("E") ||
-        word.toUpperCase().startsWith("I") ||
-        word.toUpperCase().startsWith("O") ||
-        word.toUpperCase().startsWith("U")) {
+        word.toLowerCase().startsWith('e') ||
+        word.toLowerCase().startsWith('i') ||
+        word.toLowerCase().startsWith('o') ||
+        word.toLowerCase().startsWith('u') ||
+        word.toUpperCase().startsWith('A') || 
+        word.toUpperCase().startsWith('E') ||
+        word.toUpperCase().startsWith('I') ||
+        word.toUpperCase().startsWith('O') ||
+        word.toUpperCase().startsWith('U')) {
         // If the first letter is a vowel, prepend "an"
         return "an " + word;
     } else {
