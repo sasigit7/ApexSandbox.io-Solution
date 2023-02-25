@@ -1,0 +1,18 @@
+public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
+    // Check if a, b and c are in ascending order
+    if(a <= b && b <= c) {
+        // If a, b and c are in ascending order, return true
+        return true;
+    } else {
+        // If a, b and c are not in ascending order, return false
+        return false;
+    }
+}
+
+ascendingOrder(10, 10, 15) = true; // true
+
+ascendingOrder(15, 14, 13) = false; // false
+
+///////////////////////////////
+// 4.Ascending Order: Given three Integers a, b, and c, return true if they are in ascending order. For our purposes, two equal numbers will be considered to be in an ascending order.
+///////////////////////////////
