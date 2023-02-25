@@ -1,7 +1,7 @@
 public String aOrAn(String word) {
     // APPROACH 1: 
     // Check if the first letter of the word is a vowel
-    if (word.toLowerCase().startsWith("a") || 
+    if (word.toLowerCase().startsWith('a') || 
         word.toLowerCase().startsWith("e") ||
         word.toLowerCase().startsWith("i") ||
         word.toLowerCase().startsWith("o") ||
