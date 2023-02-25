@@ -12,10 +12,10 @@ public String aOrAn(String word) {
         word.toUpperCase().startsWith('O') ||
         word.toUpperCase().startsWith('U')) {
         // If the first letter is a vowel, prepend "an"
-        return "an " + word;
+        return 'an ' + word;
     } else {
         // If the first letter is not a vowel, prepend "a"
-        return "a " + word;
+        return 'a ' + word;
     }
 
     
