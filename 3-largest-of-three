@@ -1,0 +1,17 @@
+public static Integer findLargest(Integer num1, Integer num2, Integer num3) {
+	// Initialize the largest number variable to num1
+    Integer largest = num1;
+
+    // Check if num2 is larger than largest
+    if(num2 > largest) {
+        largest = num2;
+    }
+
+    // Check if num3 is larger than largest
+    if(num3 > largest) {
+        largest = num3;
+    }
+
+    // Return the largest number
+    return largest;
+}
