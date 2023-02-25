@@ -9,9 +9,9 @@ public Boolean ascendingOrder(Integer a, Integer b, Integer c) {
     }
 }
 
-ascendingOrder(10, 10, 15) = true; // true
+ascendingOrder(10, 10, 15); // true
 
-ascendingOrder(15, 14, 13) = false; // false
+ascendingOrder(15, 14, 13); // false
 
 ///////////////////////////////
 // 4.Ascending Order: Given three Integers a, b, and c, return true if they are in ascending order. 
