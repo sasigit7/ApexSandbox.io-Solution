@@ -19,7 +19,7 @@ public Integer diff(Integer a, Integer b) {
       return Math.abs(difference);
 
   // APPROACH 2: Using Math.abs function
-     Calculate the absolute difference between a and b
+    //Calculate the absolute difference between a and b
      Integer difference = Math.abs(a - b);
     // Return the absolute difference
      return difference;
