@@ -4,6 +4,7 @@ public String aOrAn(String word) {
         // if the first letter of the word is a vowel, prepend 'an'
         return 'an ' + word;
     } else {
+        // if the first letter of the word is not a vowel, prepend 'a'
         return 'a ' + word;
     }
 }
