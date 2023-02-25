@@ -1,6 +1,6 @@
 public String aOrAn(String word) {
     // Check if the first letter of the word is a vowel
-    if('AEIOUaeiou'.indexOf((char) word.charAt(0)) != -1) {
+    if('AEIOUaeiou'.indexOf((char) word.substring(0, 1)) != -1) {
         // if the first letter of the word is a vowel, prepend 'an'
         return 'an ' + word;
     } else {
